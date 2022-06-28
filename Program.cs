@@ -67,11 +67,12 @@ Console.WriteLine("y의 값은 {0} 입니다.",b);*/
 recursive_method recur = new recursive_method();
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("{0}! = {1}",a,recur.Factorial(a));*/
-
+/*
+ --get, set, 캡슐화, 등
 Person p = new Person();
 Console.WriteLine("이름을 입력하세요.");
 p.Name = Console.ReadLine();
 Console.WriteLine("나이를 입력하세요.");
 p.Age = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("안녕하세요 {0}씨, 당신의 나이는 {1}살이군요",p.Name,p.Age);
+Console.WriteLine("안녕하세요 {0}씨, 당신의 나이는 {1}살이군요",p.Name,p.Age);*/
