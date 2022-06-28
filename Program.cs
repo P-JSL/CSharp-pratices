@@ -76,3 +76,13 @@ Console.WriteLine("나이를 입력하세요.");
 p.Age = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("안녕하세요 {0}씨, 당신의 나이는 {1}살이군요",p.Name,p.Age);*/
+
+arrays arr = new arrays();
+arr.arr();
+
+int[] myInteger = new int[10];
+for (int x = 0; x < 5; x++)
+{
+    myInteger[x] = x;
+}
+arr.foreachs(myInteger);
